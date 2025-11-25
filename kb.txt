@@ -1,0 +1,32 @@
+1|¿Qué es hardware?|hardware,componentes físicos,partes pc|El hardware es la parte física de una computadora: componentes que podés tocar como la placa madre, CPU, memoria, disco, teclado y monitor.
+2|¿Qué es software?|software,programas,aplicaciones|El software son los programas que permiten realizar tareas en la computadora, como el sistema operativo, navegadores y aplicaciones de oficina.
+3|¿Qué es un sistema operativo?|sistema operativo,os,windows,linux,macos|El sistema operativo gestiona los recursos del equipo y ofrece una interfaz para ejecutar aplicaciones y manejar archivos.
+4|¿Qué es la CPU?|cpu,procesador,unidad central|La CPU (procesador) ejecuta instrucciones y procesa la información; es el "cerebro" de la computadora.
+5|¿Qué es la RAM?|ram,memoria volátil,memoria principal|La RAM es la memoria de trabajo donde se almacenan datos temporales para que la CPU los procese; se borra al apagar el equipo.
+6|¿Qué es un disco duro?|disco duro,hdd,ssd,almacenamiento|El disco duro (HDD o SSD) almacena datos de forma persistente: sistemas, programas y archivos del usuario.
+7|HDD vs SSD|hdd,ssd,diferencia,velocidad|Los HDD usan platos magnéticos y son más lentos; los SSD usan memoria flash, son más rápidos y resistentes a golpes.
+8|¿Qué es una GPU?|gpu,placa de video,tarjeta gráfica|La GPU acelera el procesamiento gráfico y tareas de video; es importante para juegos, render y procesamiento paralelo.
+9|¿Qué es la placa madre?|placa madre,motherboard,conexiones|La placa madre conecta todos los componentes (CPU, memoria, discos y periféricos) y distribuye energía y datos.
+10|¿Qué es un periférico?|periférico,dispositivo externo,mouse,teclado|Un periférico es un dispositivo conectado a la computadora: mouse, teclado, impresora, cámara, etc.
+11|¿Qué es un archivo?|archivo,doc,documento,formato|Un archivo es una unidad de información guardada con un nombre y formato (.txt, .jpg, .pdf) que contiene datos o documentos.
+12|¿Qué es una carpeta?|carpeta,directorio,organizar|Una carpeta (directorio) organiza archivos en el sistema de ficheros para facilitar su acceso y gestión.
+13|¿Qué es Internet?|internet,red mundial,conexión|Internet es una red global que conecta computadoras para intercambiar información y acceder a servicios.
+14|¿Qué es la web?|web,páginas web,www,navegador|La web es un conjunto de páginas accesibles mediante navegadores; utiliza protocolos como HTTP/HTTPS para mostrar contenido.
+15|¿Qué es un navegador?|navegador,browser,chrome,firefox|Un navegador es el programa que permite ver páginas web y acceder a contenidos online: Chrome, Firefox, Edge o Safari.
+16|¿Qué es una contraseña?|contraseña,password,seguridad|Una contraseña es una clave que protege cuentas y datos; debe ser única, larga y difícil de adivinar.
+17|¿Qué es malware?|malware,virus,troyano,spyware|Malware es software malicioso diseñado para dañar, robar información o controlar un equipo sin permiso.
+18|¿Qué es un antivirus?|antivirus,protección,seguridad|Un antivirus detecta, bloquea y elimina malware; es una capa de protección importante junto con buenas prácticas.
+19|¿Qué es la nube?|nube,cloud,almacenamiento online|La nube ofrece servicios y almacenamiento remoto accesible vía internet para guardar archivos y ejecutar aplicaciones.
+20|¿Qué es Wi-Fi?|wifi,inalámbrico,red inalámbrica|Wi‑Fi permite conectar dispositivos a una red local y a Internet sin cables mediante un punto de acceso (router).
+21|¿Qué es una IP?|ip,dirección ip,identificador red|Una dirección IP identifica un dispositivo en una red para que otros equipos puedan enviarle datos.
+22|¿Qué es un router?|router,modem,enrutador|El router conecta redes y permite que varios dispositivos compartan una conexión a Internet en el hogar o la oficina.
+23|¿Qué es un backup?|backup,copia de seguridad,respaldar|Un backup es una copia de tus datos para protegerlos ante pérdidas, fallos de hardware o borrados accidentales.
+24|¿Qué es un pendrive?|pendrive,usb,memoria extraíble|Un pendrive es una memoria portátil USB para guardar y transportar archivos fácilmente entre computadoras.
+25|¿Qué es una red?|red,redes,sistema conectado|Una red es un conjunto de dispositivos interconectados que comparten recursos e información entre sí.
+26|¿Qué es una app?|app,aplicación,móvil|Una app es un programa diseñado para teléfonos o tablets que realiza tareas concretas, como mensajería o edición de fotos.
+27|¿Qué es un virus informático?|virus informático,virus,malware|Un virus informático se replica y puede dañar archivos o sistemas; se propaga al ejecutar archivos infectados.
+28|¿Qué es un servidor?|servidor,hosting,servicio|Un servidor es una máquina que ofrece servicios (web, correo, archivos) a otros equipos (clientes) en la red.
+29|¿Qué es una impresora?|impresora,imprimir,periférico|Una impresora transforma documentos digitales en papel; puede ser de inyección, láser o térmica.
+30|¿Qué es una red social?|red social,facebook,instagram,comunicación|Una red social es una plataforma online donde las personas comparten contenido, se comunican y crean comunidades.
+
+
