@@ -22,24 +22,33 @@ function RemoveStopWords(s: string): string;
 function LevenshteinDistance(s1, s2: string): integer;
 
 implementation
-
+{funcion auxiliar para comparar dos enteros}
 function MinInt(a, b: integer): integer;
 begin
   if a < b then MinInt := a else MinInt := b;
 end;
-
+{borrar espacios }
 function TrimStr(s: string): string;
-var i, first, last: integer;
+var 
+  i, inicio, fin: integer;
 begin
-  first := 1;
-  while (first <= Length(s)) and (s[first] = ' ') do Inc(first);
+  { Buscar el primer carácter que NO sea un espacio }
+  inicio := 1;
+  while (inicio <= Length(s)) and (s[inicio] = ' ') do
+    Inc(inicio);
 
-  last := Length(s);
-  while (last >= first) and (s[last] = ' ') do Dec(last);
+  { Buscar el último carácter que NO sea un espacio }
+  fin := Length(s);
+  while (fin >= inicio) and (s[fin] = ' ') do
+    Dec(fin);
 
-  if last < first then TrimStr := ''
-  else TrimStr := Copy(s, first, last - first + 1);
+  { Si no quedó texto útil, devolver cadena vacía }
+  if fin < inicio then
+    TrimStr := ''
+  else
+    TrimStr := Copy(s, inicio, fin - inicio + 1);
 end;
+
 
 function ToLowerCase(s: string): string;
 var i: integer;
@@ -57,11 +66,11 @@ begin
   begin
     c := s[i];
     { reemplazos básicos de acentos comunes }
-    if (c = #225) or (c = 'á') or (c = 'Á') then s[i] := 'a';
-    if (c = #233) or (c = 'é') or (c = 'É') then s[i] := 'e';
-    if (c = #237) or (c = 'í') or (c = 'Í') then s[i] := 'i';
-    if (c = #243) or (c = 'ó') or (c = 'Ó') then s[i] := 'o';
-    if (c = #250) or (c = 'ú') or (c = 'Ú') then s[i] := 'u';
+    if (c = 'á') or (c = 'Á') then s[i] := 'a';
+    if (c = 'é') or (c = 'É') then s[i] := 'e';
+    if (c = 'í') or (c = 'Í') then s[i] := 'i';
+    if (c = 'ó') or (c = 'Ó') then s[i] := 'o';
+    if (c = 'ú') or (c = 'Ú') then s[i] := 'u';
     if (c = 'ñ') or (c = 'Ñ') then s[i] := 'n';
   end;
   RemoveAccents := s;
